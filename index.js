@@ -30,7 +30,7 @@ bot.on("ready", () => {
     }, 1800000);
   }
   else {
-    console.warn("Discord Bot List token (dbltoken) was not found in .env! Server counts will not be sent to Discord Bot List.");
+    console.warn("Discord Bot List token (dbltoken) was not found in .env! Server counts will not be sent to Discord Bot List...");
   }
 });
 bot.on("guildMemberAdd", member => {
